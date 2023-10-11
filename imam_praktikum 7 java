@@ -1,0 +1,29 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package imam_praktikum.pkg7;
+
+/**
+ *
+ * @author Praktikan
+ */
+public class Imam_praktikum7 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Mahasiswa mhs1 = new Mahasiswa("imam ahdy sabilla", "2217051141", 90, 90, 90);
+          mhs1.printData();
+        System.out.println(mhs1.sumValue());
+        mhs1.setNilaiTugas(90);
+        mhs1.setNilaiUts(90);
+        mhs1.setNilaiUas(90);
+        
+      mhs1.hitungNA(mhs1.getNilaiTugas(), mhs1.getNilaiUts(), mhs1.getNilaiUas());
+      
+    }
+    
+}
